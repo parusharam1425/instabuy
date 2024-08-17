@@ -32,10 +32,10 @@ function ProductDetails({ handleAddToCart, cartItems }) {
         navigate('/cart')
     }
     return (
-        <div style={{ padding: 70 }}>
+        <div className='product-details-main-container'>
             <h5 className='product-details-title'>Prodect Dtails</h5>
             <Row>
-                <Col lg={2}>
+                <Col lg={2} xs={12} className='product-details-images' >
                     {images.map((image, index) => {
                         return (
                             <div key={index}>
@@ -44,23 +44,23 @@ function ProductDetails({ handleAddToCart, cartItems }) {
                         )
                     })}
                 </Col>
-                <Col lg={5}>
-                    <div style={{ marginLeft: "3rem" }}>
+                <Col lg={5} xs={12}>
+                    <div className='display-image-details'>
                         <img src={images[0]} width={270} alt="" style={{ borderRadius: 8, marginBottom: 20 }} />
-                        <h4>{title}</h4>
+                        <h5>{title}</h5>
                         <div className='product-price'>
                             ${price}
                         </div>
                         <p className='product-description'>
                             {description}
                         </p>
-                        <Button style={{ marginTop: '1rem' }}
+                        <Button className='add-tocart-button'
                             onClick={addToCart}>
                             Add to cart</Button>
                     </div>
                 </Col>
-                <Col lg={5}>
-                    <div>
+                <Col lg={5} xs={12}>
+                    <div className='products-under-section'>
                         <h4 className='product-main-title'>
                             Products under this category
                         </h4>
