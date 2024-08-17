@@ -1,0 +1,62 @@
+.instabuy-carousel-img{
+    height: 90vh;
+    margin-left: 2.5rem;
+}
+.carousel-row-container{
+    display: flex;
+    align-items:center;
+}
+.carousel-col-container{
+    margin-left: 6.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.carousel-text{
+    font-size: 28px;
+    font-weight: 770;
+    font-style: italic;
+}
+.carousel-span-text{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(92, 148, 232);
+}
+.product-description{
+    font-weight: 500;
+    font-size: 18px !important;
+
+}
+.product-button{
+    width: 40%;
+}
+.products-text{
+    margin-top: 2rem;
+
+}
+.product-items{
+    /* margin-top: rem; */
+    display: flex;
+    width: 67%;
+    justify-content: space-between;
+    /* margin-left: 0.3rem; */
+    align-items: flex-end;
+}
+.product-items > img{
+    height: 35px;
+}
+
+
+@media screen and (min-width: 50px)and (max-width: 768px){
+    .carousel-col-container{
+        margin-left: 0rem;
+        margin: 30px;
+  
+    }
+    .instabuy-carousel-img{
+        height: 40vh;
+        margin-right: auto;
+    }
+  }
+

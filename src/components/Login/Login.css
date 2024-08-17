@@ -1,0 +1,86 @@
+.login-container{
+    padding: 75px 0;
+    background-color: rgb(36, 116, 245);
+    color: white;
+    height: 100;
+    background-size: cover;
+}
+.logo{
+    color: white;
+}
+
+.login-card{
+    margin: 6rem 0 0 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.logo-card{
+    margin-top: -2rem;
+    margin-bottom: 1.4rem;
+}
+.logo-name{
+    margin-left: 0.5rem;
+}
+.login-inputs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 0.7rem;
+}
+.custom-placeholder::placeholder{
+    color: green !important;
+    font-size: 14px;
+}
+.form-inputs{
+    width: 48%;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+
+
+}
+.sign-form-input{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.shopping-card{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.error{
+    color: rgb(94, 4, 4);
+}
+.shopping-button{
+    width: 100%;
+    height: 2.8rem;
+    margin-bottom: 0.8rem;
+    border: 1.5px solid white !important;
+    background: transparent;
+}
+.span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-img {
+    max-width: 100%;
+    height: 450px;
+    display: block;
+    margin: auto;
+  }
+  
+  @media screen and (min-width: 50px)and (max-width: 768px){
+  .login-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+
+  }
+}
